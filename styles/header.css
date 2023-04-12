@@ -1,0 +1,64 @@
+logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+#headerLogo{
+    max-width: 200px;
+}
+
+#mainBanner{
+    background-image: url('../imgs/school_girl.png');
+    background-color: #2C72B4;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+}
+
+#activation{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40%;
+    min-height: 60vh;
+    gap: 2vw;
+}
+
+#activation p{
+    font-size: 2em;
+    text-align: end;
+    color: white;
+    line-height: 1.4em;
+    max-width: 20vw;
+}
+
+#activationQR{
+    max-width: 250px;
+}
+
+#brands{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#brands button{
+    background-color: #ffffff;
+    border: none;
+    padding: .6em;
+    transition: .3s;
+    cursor: pointer;
+}
+
+#brands button:hover{
+    padding-right: 6em;
+}
+
+.brandLogo{
+    max-width: 70px;
+}

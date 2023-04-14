@@ -48,7 +48,7 @@ logo{
 }
 
 #brands a{
-    background-color: #ffffff;
+    background-color: #E9F3FC90;
     border: none;
     padding: .6em;
     transition: .3s;
@@ -67,6 +67,7 @@ logo{
     #mainBanner{
         flex-direction: column;
         padding: 2em 1em 0 1em;
+        background-image: none;
     }
     #brands{
         flex-direction: row;
@@ -76,9 +77,10 @@ logo{
     #activation{
         width: 100%;
         flex-direction: column;
+        min-height: 0;
     }
     #activation p{
-        font-size: 6vw;
+        font-size: 2em;
         text-align: center;
         max-width: 100%;
     }

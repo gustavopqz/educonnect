@@ -1,5 +1,6 @@
 article{
     padding: 3em 7em;
+    background-image: url('../imgs/teste.jpg');
 }
 
 .article h2{

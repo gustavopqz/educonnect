@@ -11,7 +11,7 @@ logo{
 
 #mainBanner{
     background-image: url('../imgs/school_girl.png');
-    background-color: #2C72B4;
+    background-color: var(--logoblue);
     background-size: cover;
     min-height: 60vh;
     display: flex;
@@ -29,7 +29,7 @@ logo{
 #activation p{
     font-size: 2em;
     text-align: end;
-    color: white;
+    color: #ffffff;
     line-height: 1.4em;
     max-width: 20vw;
 }
@@ -47,7 +47,7 @@ logo{
     gap: 2vh;
 }
 
-#brands button{
+#brands a{
     background-color: #ffffff;
     border: none;
     padding: .6em;
@@ -55,7 +55,7 @@ logo{
     cursor: pointer;
 }
 
-#brands button:hover{
+#brands a:hover{
     padding-right: 6em;
 }
 

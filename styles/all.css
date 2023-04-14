@@ -5,3 +5,12 @@
     font-family: sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --logoblue: #2C72B4;
+    --darkblue: #276299;
+    --smoothblue: #3386d3
+}

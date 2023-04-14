@@ -1,0 +1,29 @@
+footer{
+    display: flex;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.footerDiv{
+    width: 500%;
+}
+
+#logoDiv{
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid var(--darkblue);
+}
+
+#logoFooter{
+    max-width: 350px;
+}
+
+#location{
+    padding-left: 3em;
+    font-size: 1.2em;
+    color: var(--darkblue);
+}
+
+#location p{
+    line-height: 1.5em;
+}

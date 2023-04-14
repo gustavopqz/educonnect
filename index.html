@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/all.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/article.css">
+    <link rel="stylesheet" href="./styles/section.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <title>EduConnect Colégio Nobre</title>
 </head>
 <body>
@@ -18,10 +21,80 @@
                 <img id="activationQR" src="./imgs/activation.jpeg" alt="ativação">
             </aside>
             <div id="brands">
-                <button id="ios"><img class="brandLogo" src="./imgs/apple_logo.png" alt="apple_logo"></button>
-                <button id="android"><img class="brandLogo" src="./imgs/android_logo.png" alt="android_logo"></button>
+                <a id="ios"><img class="brandLogo" src="./imgs/apple_logo.png" alt="apple_logo"></a>
+                <a id="android"><img class="brandLogo" src="./imgs/android_logo.png" alt="android_logo"></a>
             </div>
         </div>
     </header>
+
+    <article>
+        <div class="article" id="whatIs">
+            <h2>O que é o EduConnect?</h2>
+            <p>Ponto único de comunicação institucional, serviços acadêmicos e financeiros. Com retenção, captação, gestão acadêmica, gestão de aprendizagem, gestão de recebíveis, portal e mobilidade.</p>
+        </div>
+        <div class="article" id="forWhat">
+            <h2>Para que serve?</h2>
+            <p>Possui serviços tanto para o aluno, quanto para seu responsável e também para o professor. Podem acompanhar e administrar os serviços acadêmicos de forma mais simplificada e otimizada.</p>
+        </div>
+        <div class="article">
+            <h2>Quem pode usar o EduConnect?</h2>
+            <div id="professors" class="forWho">
+                <img src="./imgs/professor.png" alt="Professor">
+                <div>
+                    <h3>Professoress</h3>
+                    <p>Chamada, lançamento de notas, conteúdo e lição de casa.</p>
+                </div>
+            </div>
+            <div id="students" class="forWho">
+                <img src="./imgs/student.png" alt="Estudante">
+                <div>
+                    <h3>Estudantes e Responspáveis</h3>
+                    <p>Comunicação, consulta de notas, frequência, histórico, horários e boletos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="article">
+            <h2>Benefícios</h2>
+            <div id="benefits">
+                <div id="communication">
+                    <h3>Comunicação</h3>
+                    <ul class="benefitsList">
+                        <li>Comunicação direcionada</li>
+                        <li>Segurança</li>
+                        <li>Efetividade</li>
+                        <li>Agilidade</li>
+                    </ul>
+                </div>
+                <div id="engagement">
+                    <h3>Engajamento e retenção</h3>
+                    <ul class="benefitsList">
+                        <li>Proximidade com as instituições de ensino</li>
+                        <li>Percepção de inovação</li>
+                        <li>Antecipação de problemas acadêmicos, pedagógicos e financeiros</li>
+                        <li>Análise da participação da família na vida acadêmica</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <section>
+        <h2>Faça o download do aplicativo</h2>
+        <div id="codes">
+            <img src="./imgs/EduConnect_ios.jpeg" alt="QR code app store">
+            <h3>Aponte a câmera do seu smartphone para o QR Code</h3>
+            <img src="./imgs/EduConnect_android.jpeg" alt="QR code play store">
+        </div>
+    </section>
+    <footer>
+        <div class="footerDiv" id="logoDiv">
+            <img id="logoFooter" src="./imgs/cn_logo.png" alt="Logo Colégio Nobre">
+        </div>
+        <div class="footerDiv" id="location">
+            <p>Rua Professora Edelvira de Oliveira, nº 232</p>
+            <p>Bairro São João – CEP 44051754 - Feira de Santana – BA</p>
+            <p>Telefone: (75) 2102-9100</p>
+        </div>
+    </footer>
 </body>
 </html>

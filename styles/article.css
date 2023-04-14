@@ -1,0 +1,67 @@
+article{
+    padding: 3em 7em;
+}
+
+.article h2{
+    margin-top: 1em;
+    font-size: 2.2em;
+    color: var(--darkblue);
+}
+
+.article p{
+    padding: .5em 0 0 2em;
+    color: var(--smoothblue);
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.forWho{
+    display: flex;
+    padding: 2em 0;
+}
+
+.forWho div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.forWho img{
+    max-width: 90px;
+    padding: .6em;
+    background-color: var(--smoothblue);
+    margin-left: 2vw;
+    box-shadow: 3px 3px 5px #00000090;
+}
+
+.forWho h3{
+    font-size: 1.7em;
+    padding-left: 1em;
+    color: var(--darkblue);
+}
+
+#benefits{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#benefits div{
+    margin-top: 1em;
+    width: 40%;
+}
+
+#benefits div h3{
+    font-size: 1.7em;
+    color: var(--darkblue);
+}
+
+.benefitsList{
+    padding: .2em 2em;
+    font-size: 1.5em;
+    color: var(--smoothblue);
+    line-height: 1.3em;
+}
+
+#communication{
+    border-right: 3px solid var(--darkblue);
+}

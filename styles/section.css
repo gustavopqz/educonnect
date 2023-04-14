@@ -1,0 +1,33 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--logoblue);
+    padding: 4em 0;
+}
+
+section h2{
+    font-size: 2.2em;
+    padding: 0em 0 2em 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+#codes{
+    display: flex;
+    align-items: center;
+    padding-bottom: 3em;
+}
+
+#codes h3{
+    font-size: 1.7em;
+    max-width: 25vw;
+    text-align: center;
+    padding-inline: 3vw;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+#codes img{
+    max-width: 300px;
+}

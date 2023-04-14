@@ -5,7 +5,7 @@ footer{
 }
 
 .footerDiv{
-    width: 500%;
+    width: 50%;
 }
 
 #logoDiv{
@@ -26,4 +26,21 @@ footer{
 
 #location p{
     line-height: 1.5em;
+}
+
+@media (max-width: 1080px){
+    footer{
+        flex-direction: column;
+    }
+    .footerDiv{
+        width: 100%;
+        padding-bottom: 1em;
+    }
+    #logoDiv{
+        border-right: none;
+    }
+    #location{
+        padding: 1em 2em;
+        border-top: 2px solid var(--darkblue);;
+    }
 }

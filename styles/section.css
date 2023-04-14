@@ -50,3 +50,26 @@ section h2{
     letter-spacing: 2px;
     text-shadow: 1px 1px 3px #000000;
 }
+
+@media (max-width: 1080px){
+    section{
+        padding: 4em 2em;
+    }
+
+    section h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    #codes{
+        flex-direction: column;
+    }
+    #codes .qrCode h3{
+        justify-content: center;
+    }
+    #codes > h3{
+        max-width: 100%;
+        font-weight: 200;
+        padding: 2em 3vw;
+    }
+}

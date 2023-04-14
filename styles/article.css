@@ -116,5 +116,6 @@ article{
     #communication{
         border-right: none;
         border-bottom: 3px solid var(--darkblue);
+        padding-bottom: 2em;
     }
 }

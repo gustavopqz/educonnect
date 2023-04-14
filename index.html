@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./styles/article.css">
     <link rel="stylesheet" href="./styles/section.css">
     <link rel="stylesheet" href="./styles/footer.css">
+
+    <script src="./scripts/index.js" defer></script>
     <title>EduConnect Colégio Nobre</title>
 </head>
 <body>
@@ -81,9 +83,15 @@
     <section>
         <h2>Faça o download do aplicativo</h2>
         <div id="codes">
-            <img src="./imgs/EduConnect_ios.jpeg" alt="QR code app store">
+            <div class="qrCode" id="iosCode">
+                <img src="./imgs/EduConnect_ios.jpeg" alt="QR code app store">
+                <h3><img src="./imgs/apple_logo.png" alt="apple logo" style="max-width: 70px;">iPhone</h3>
+            </div>
             <h3>Aponte a câmera do seu smartphone para o QR Code</h3>
-            <img src="./imgs/EduConnect_android.jpeg" alt="QR code play store">
+            <div class="qrCode" id="androidCode">
+                <img src="./imgs/EduConnect_android.jpeg" alt="QR code play store">
+                <h3><img src="./imgs/android_logo.png" alt="android logo" style="max-width: 70px;">Android</h3>
+            </div>
         </div>
     </section>
     <footer>

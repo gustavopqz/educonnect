@@ -31,3 +31,22 @@ section h2{
 #codes img{
     max-width: 300px;
 }
+
+.qrCode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.qrCode h3{
+    display: flex;
+    align-items: center;
+    gap: .2em;
+}
+
+#codes .qrCode h3{
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px #000000;
+}
